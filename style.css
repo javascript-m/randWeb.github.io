@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding 0;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+html {
+    overflow-x: hidden;
+}
+h5, h3 a, h3, h6 {
+    color: black;
+    padding: 0.5rem 0;
+    margin: 0;
+    text-decoration: none;
+}
+h5 {
+    font-family: "Impact";
+    margin-top: 2rem;
+    color: #b3b3b3;
+    letter-spacing: 0.1rem;
+}
+h6, h6 a {
+    margin-bottom: 5rem;
+    color: rgb(230, 0, 0);
+    font-weight: 500;
+}
+
+/*Header*/
+header {
+    margin 0;
+    padding: 2rem 0;
+}
+header .row {
+    display: flex;
+    align-items: center;
+}
+header h1 {
+    font-weight: 800;
+    color: rgb(230, 0, 0);
+    text-shadow: 1px 1px gray;
+    margin: 0;
+    font-size: 7rem;
+}
+header nav {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+header p {
+    text-decoration: none;
+    margin: 0.5rem;
+}
+header p a {
+    color: gray;
+}
+header p a:hover {
+    color: lightgray;
+}
+header .btns {
+    justify-content: flex-end;
+}
+header .mainBar p {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+header .mainBar p a {
+    color: #262626;
+    font-weight: bold;
+}
+.line {
+    width: 80%;
+    display: inline-block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid lightgray;
+}
+.split {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.v {
+    display: flex;
+    margin: auto;
+    width: 0;
+    height: 100%;
+}
+
+/*Section1*/
+.jumbotron {
+    margin: 0;
+    align-items: center;
+    background-size: cover;
+    color: #ffffff;
+}
+.jumbotron h2 {
+    margin-top: 4rem;
+    font-size: 7rem;
+    font-weight: normal;
+    font-family: "Impact";
+    text-shadow: 1px 1px 1px #000000;
+}
+.jumbotron input {
+    background-color: rgba(255, 255, 255, 0.74902);
+    padding: 1rem;
+    margin: 0;
+    border: none;
+    color: black;
+    width: 30rem;
+    height: 4.5rem;
+}
+.jumbotron img {
+    background-size: cover;
+    height: 4.5rem;
+    width: 4.5rem;
+    padding: 0;
+    margin: 0;
+}
+.jumbotron .br {
+    margin-top: 20rem;
+    background-color: #333;
+    border: 1px solid white;
+    border-radius: 0%;
+    justify-content: center;
+}
+.jumbotron .br a {
+    color: white;
+    padding: 2rem;
+    text-decoration: none;
+    font-weight: 400;
+    font: italic 400 2rem utopia-std-display;
+}
+.sec1 {
+    background-image: url('http://assets.epicurious.com/photos/54adbee619925f464b3baf7b/4:1/w_2000%2Ch_486/08-CranberryBeans.jpg');
+    height: 50rem;
+}
+
+
+/*Section2*/
+.sec2 {
+    margin: 0 38rem;
+    background-color: white;
+    height: 98rem;
+    
+}
+.sec2 row {
+    margin-bottom: 5rem;
+}
+.sec2 .thumb {
+    height: 28rem;
+}
+.thumb img {
+    height: 100%;
+    width: 100%;
+}
+.sec2 .line {
+    margin-top: 2.4rem;
+    width: 40%;
+}
+
+/*Section3*/
+.sec3 {
+    margin: 0 20rem;
+    background-color: white;
+    height: 98rem;
+}
+.sec3 .thumb {
+    height: 48rem;
+    margin-bottom: 2rem;
+}
+.sec3 .btn {
+    position: relative;
+    top: 1.5rem;
+    background-color: #f93f23;
+    border-radius: 0;
+    padding: 0.5rem 3.5rem;
+}
+.sec3 .btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Gotham Cond SSm 5r",sans-serif;
+    font-stretch: extra-condensed;
+}
+.sec3 p {
+    padding: 3rem 0;
+    color: #5E6669;
+    font-size: 1.7rem;
+}
+.sec3 .col-sm-5, .col-sm-2 {
+    height: 27rem;
+    background-color: none;
+}
+.sec3 .col-sm-5 .pic {
+    position: relative;
+    left: -10%;
+    float: left;
+    height: 8rem;
+    width: 28%;
+    margin: 0.5rem;
+}
+.sec3 .col-sm-5 p {
+    float: right;
+}
+.pic img {
+    height: 100%;
+    width: 100%;
+}
+.tiny {
+    position: relative;
+    left: -5%;
+    margin: 0;
+    font-size: 1.5rem;
+}
